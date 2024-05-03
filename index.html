@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Ejercicio 1:</h1>
+  <p>
+    // Global Scope <br>
+    var globalVariable = "Soy una variable global.";<br><br>
+
+    function testScope() {<br>
+    <span style="color: transparent;">es</span> // Function Scope<br>
+    <span style="color: transparent;">es</span> var functionVariable = "Soy una variable local.";<br>
+    <br>
+    <span style="color: transparent;">es</span> if (true) {<br>
+    <span style="color: transparent;">espac</span> // Block Scope<br>
+    <span style="color: transparent;">espac</span>let blockVariable = "Soy una variable de bloque.";<br>
+    <span style="color: transparent;">espac</span>console.log("Dentro del bloque:", blockVariable);<br>
+    <span style="color: transparent;">es</span>}<br>
+    <br>
+    <span style="color: transparent;">es</span>console.log("Dentro de la función:", functionVariable);<br>
+    }<br><br>
+
+    console.log("Fuera de la función:", globalVariable);<br>
+    testScope();<br>
+  </p>
+  <script src="/6th.js"></script>
+</body>
+
+</html>
