@@ -793,7 +793,7 @@ cargarYMostrarData()
     console.error("Error al manejar la promesa:", error);
   });
 
-//////////Validacion de disponibilidad////////////
+//////////Estos solo son ejemplos para validar////////////
 // function validarDisponibilidad (numeroPersonas,habitaciones){
 //   if (numeroPersonas==1 && habitaciones.roomTypeId==1){
 
